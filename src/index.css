@@ -8,29 +8,45 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 35 25% 97%;
+    --foreground: 15 15% 15%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 35 30% 98%;
+    --card-foreground: 15 15% 15%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 35 30% 98%;
+    --popover-foreground: 15 15% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 15 75% 45%;
+    --primary-foreground: 35 30% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 35 20% 90%;
+    --secondary-foreground: 15 15% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 35 15% 92%;
+    --muted-foreground: 15 8% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 25 65% 65%;
+    --accent-foreground: 35 30% 98%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
+
+    --gold: 45 85% 55%;
+    --gold-foreground: 15 15% 15%;
+    
+    --terracotta: 15 75% 45%;
+    --terracotta-light: 15 60% 75%;
+    
+    --cream: 35 30% 95%;
+    --warm-pink: 340 50% 85%;
+    
+    --gradient-primary: linear-gradient(135deg, hsl(var(--terracotta)), hsl(var(--gold)));
+    --gradient-soft: linear-gradient(180deg, hsl(var(--cream)), hsl(var(--warm-pink)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--terracotta)) 0%, hsl(var(--gold)) 50%, hsl(var(--accent)) 100%);
+    
+    --shadow-elegant: 0 10px 30px -10px hsl(var(--terracotta) / 0.3);
+    --shadow-glow: 0 0 40px hsl(var(--gold) / 0.2);
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
